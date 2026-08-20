@@ -1,16 +1,20 @@
 <div align="center">
 
-<h1>Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications</h1>
+<h1>Quadruped Locomotion with Temporal Logic Specifications</h1>
 
-<p><b>Anonymous Author(s)</b></p>
-
-<p>Submitted to the 10th Conference on Robot Learning (CoRL 2026)</p>
+<p>
+  <a href="https://github.com/M-Atasever/STL-based-Quadruped-Locomotion">[Github repo]</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://arxiv.org/abs/2607.00442">[Manually designed STL specs]</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#">[LLM-generated STL specs (will appear soon)]</a>
+</p>
 
 <img src="assets/quadruped%20model.png" width="500" alt="Barkour Quadruped Model">
 
 </div>
 
 <hr>
+
+## Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications
 
 ## Abstract
 
@@ -318,4 +322,106 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
 
 <hr>
 
+## LLM-Generated Temporal Logic Specifications
+
+<p>Below are evaluations of the 6 baselines generated using Large Language Models (LLMs) to automatically synthesize Temporal Logic Specifications. For each baseline, we showcase policies executed at low (0.4 m/s), medium (1.2 m/s), and the highest achieved velocity.</p>
+
+<div align="center">
+
+### GPT-Gait-Agnostic
+<table>
+  <tr>
+    <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.2 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.9 m/s</b></td>
+  </tr>
+  <tr>
+    <td><video src="assets/GPT-Gait-Agnostic/gait_agnostic_velocity_0.4_GPT-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/GPT-Gait-Agnostic/gait_agnostic_velocity_1.2_GPT-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/GPT-Gait-Agnostic/gait_agnostic_velocity_1.9_GPT-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+  </tr>
+</table>
+
+### GPT-Multi-Gait
+<table>
+  <tr>
+    <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.2 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.6 m/s</b></td>
+  </tr>
+  <tr>
+    <td><video src="assets/GPT-Multi-Gait/multigait_velocity_0.4_GPT-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/GPT-Multi-Gait/multigait_velocity_1.2_GPT-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/GPT-Multi-Gait/multigait_velocity_1.6_GPT-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+  </tr>
+</table>
+
+### Qwen-Gait-Agnostic
+<table>
+  <tr>
+    <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.2 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.3 m/s</b></td>
+  </tr>
+  <tr>
+    <td><video src="assets/Qwen-Gait-Agnostic/velocity_0.4_Qwen-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/Qwen-Gait-Agnostic/velocity_1.2_Qwen-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/Qwen-Gait-Agnostic/velocity_1.3_Qwen-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+  </tr>
+</table>
+
+### Qwen-Multi-Gait
+<table>
+  <tr>
+    <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.2 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.9 m/s</b></td>
+  </tr>
+  <tr>
+    <td><video src="assets/Qwen-Multi-Gait/velocity_0.4_Qwen-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/Qwen-Multi-Gait/velocity_1.2_Qwen-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/Qwen-Multi-Gait/velocity_1.9_Qwen-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+  </tr>
+</table>
+
+### Text2Reward-Gait-Agnostic
+<table>
+  <tr>
+    <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.2 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.9 m/s</b></td>
+  </tr>
+  <tr>
+    <td><video src="assets/Text2Reward-Gait-Agnostic/velocity_0.4_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/Text2Reward-Gait-Agnostic/velocity_1.2_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/Text2Reward-Gait-Agnostic/velocity_1.9_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+  </tr>
+</table>
+
+### Text2Reward-Multi-Gait
+<table>
+  <tr>
+    <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.2 m/s</b></td>
+    <td align="center"><b>v<sub>x</sub> = 1.6 m/s</b></td>
+  </tr>
+  <tr>
+    <td><video src="assets/Text2Reward-Multi-Gait/velocity_0.4_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/Text2Reward-Multi-Gait/velocity_1.2_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/Text2Reward-Multi-Gait/velocity_1.6_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+  </tr>
+</table>
+
+</div>
+
+<hr>
+
 ## Citation
+
+```bibtex
+@article{atasever2026learning,
+  title={Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications},
+  author={Atasever, Merve and Bakirci, Cagan and Corona, Alfredo Reina and Azbijari, Keyan and Deshmukh, Jyotirmoy V},
+  journal={arXiv preprint arXiv:2607.00442},
+  year={2026}
+}
