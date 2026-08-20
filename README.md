@@ -328,7 +328,7 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
 
 <div align="center">
 
-### GPT-Gait-Agnostic
+<h3>GPT-Gait-Agnostic</h3>
 <table>
   <tr>
     <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
@@ -336,13 +336,13 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
     <td align="center"><b>v<sub>x</sub> = 1.9 m/s</b></td>
   </tr>
   <tr>
-    <td><video src="assets/GPT-Gait-Agnostic/gait_agnostic_velocity_0.4_GPT-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/GPT-Gait-Agnostic/gait_agnostic_velocity_1.2_GPT-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/GPT-Gait-Agnostic/gait_agnostic_velocity_1.9_GPT-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/gait_agnostic_velocity_0.4_GPT-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/gait_agnostic_velocity_1.2_GPT-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/gait_agnostic_velocity_1.9_GPT-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
   </tr>
 </table>
 
-### GPT-Multi-Gait
+<h3>GPT-Multi-Gait</h3>
 <table>
   <tr>
     <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
@@ -350,13 +350,13 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
     <td align="center"><b>v<sub>x</sub> = 1.6 m/s</b></td>
   </tr>
   <tr>
-    <td><video src="assets/GPT-Multi-Gait/multigait_velocity_0.4_GPT-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/GPT-Multi-Gait/multigait_velocity_1.2_GPT-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/GPT-Multi-Gait/multigait_velocity_1.6_GPT-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/multigait_velocity_0.4_GPT-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/multigait_velocity_1.2_GPT-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/multigait_velocity_1.6_GPT-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
   </tr>
 </table>
 
-### Qwen-Gait-Agnostic
+<h3>Qwen-Gait-Agnostic</h3>
 <table>
   <tr>
     <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
@@ -364,13 +364,13 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
     <td align="center"><b>v<sub>x</sub> = 1.3 m/s</b></td>
   </tr>
   <tr>
-    <td><video src="assets/Qwen-Gait-Agnostic/velocity_0.4_Qwen-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/Qwen-Gait-Agnostic/velocity_1.2_Qwen-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/Qwen-Gait-Agnostic/velocity_1.3_Qwen-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_0.4_Qwen-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_1.2_Qwen-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_1.3_Qwen-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
   </tr>
 </table>
 
-### Qwen-Multi-Gait
+<h3>Qwen-Multi-Gait</h3>
 <table>
   <tr>
     <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
@@ -378,13 +378,13 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
     <td align="center"><b>v<sub>x</sub> = 1.9 m/s</b></td>
   </tr>
   <tr>
-    <td><video src="assets/Qwen-Multi-Gait/velocity_0.4_Qwen-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/Qwen-Multi-Gait/velocity_1.2_Qwen-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/Qwen-Multi-Gait/velocity_1.9_Qwen-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_0.4_Qwen-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_1.2_Qwen-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_1.9_Qwen-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
   </tr>
 </table>
 
-### Text2Reward-Gait-Agnostic
+<h3>Text2Reward-Gait-Agnostic</h3>
 <table>
   <tr>
     <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
@@ -392,13 +392,13 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
     <td align="center"><b>v<sub>x</sub> = 1.9 m/s</b></td>
   </tr>
   <tr>
-    <td><video src="assets/Text2Reward-Gait-Agnostic/velocity_0.4_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/Text2Reward-Gait-Agnostic/velocity_1.2_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/Text2Reward-Gait-Agnostic/velocity_1.9_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_0.4_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_1.2_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_1.9_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
   </tr>
 </table>
 
-### Text2Reward-Multi-Gait
+<h3>Text2Reward-Multi-Gait</h3>
 <table>
   <tr>
     <td align="center"><b>v<sub>x</sub> = 0.4 m/s</b></td>
@@ -406,9 +406,9 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
     <td align="center"><b>v<sub>x</sub> = 1.6 m/s</b></td>
   </tr>
   <tr>
-    <td><video src="assets/Text2Reward-Multi-Gait/velocity_0.4_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/Text2Reward-Multi-Gait/velocity_1.2_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/Text2Reward-Multi-Gait/velocity_1.6_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_0.4_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_1.2_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_1.6_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
   </tr>
 </table>
 
