@@ -14,7 +14,7 @@
 
 <hr>
 
-## Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications
+
 
 ## Abstract
 
