@@ -418,7 +418,7 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
 
 ## Citation
 
-```bibtex
+
 @article{atasever2026learning,
   title={Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications},
   author={Atasever, Merve and Bakirci, Cagan and Corona, Alfredo Reina and Azbijari, Keyan and Deshmukh, Jyotirmoy V},
