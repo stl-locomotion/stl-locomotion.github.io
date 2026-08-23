@@ -392,9 +392,9 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
     <td align="center"><b>v<sub>x</sub> = 1.9 m/s</b></td>
   </tr>
   <tr>
-    <td><video src="assets/velocity_0.4_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/velocity_1.2_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/velocity_1.9_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_0.4_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300" height="170" style="object-fit: cover;"></video></td>
+    <td><video src="assets/velocity_1.2_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300" height="170" style="object-fit: cover;"></video></td>
+    <td><video src="assets/velocity_1.9_Text2Reward-Gait-Agnostic.mp4" controls autoplay loop muted width="300" height="170" style="object-fit: cover;"></video></td>
   </tr>
 </table>
 
@@ -406,9 +406,9 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
     <td align="center"><b>v<sub>x</sub> = 1.6 m/s</b></td>
   </tr>
   <tr>
-    <td><video src="assets/velocity_0.4_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/velocity_1.2_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
-    <td><video src="assets/velocity_1.6_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300"></video></td>
+    <td><video src="assets/velocity_0.4_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300" height="170" style="object-fit: cover;"></video></td>
+    <td><video src="assets/velocity_1.2_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300" height="170" style="object-fit: cover;"></video></td>
+    <td><video src="assets/velocity_1.6_Text2Reward-Multi-Gait.mp4" controls autoplay loop muted width="300" height="170" style="object-fit: cover;"></video></td>
   </tr>
 </table>
 
@@ -418,10 +418,10 @@ Benchmark comparison across commanded forward velocities. Each entry reports mea
 
 ## Citation
 
-
-@article{atasever2026learning,<br>
-  title={Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications},<br>
-  author={Atasever, Merve and Bakirci, Cagan and Corona, Alfredo Reina and Azbijari, Keyan and Deshmukh, Jyotirmoy V},<br>
-  journal={arXiv preprint arXiv:2607.00442},<br>
+```bibtex
+@article{atasever2026learning,
+  title={Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications},
+  author={Atasever, Merve and Bakirci, Cagan and Corona, Alfredo Reina and Azbijari, Keyan and Deshmukh, Jyotirmoy V},
+  journal={arXiv preprint arXiv:2607.00442},
   year={2026}
 }
