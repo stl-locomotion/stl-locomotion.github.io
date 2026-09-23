@@ -291,5 +291,3 @@ Ablation over temporal window size H. Metrics are averaged across all evaluated 
   journal={arXiv preprint arXiv:2609.07111},
   year={2026}
 }</code></pre>
-  year={2026}
-}
