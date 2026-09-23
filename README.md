@@ -278,17 +278,18 @@ Ablation over temporal window size H. Metrics are averaged across all evaluated 
 
 ## Citation
 
-```bibtex
-@article{atasever2026learning,
+<pre><code>@article{atasever2026learning,
   title={Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications},
   author={Atasever, Merve and Bakirci, Cagan and Corona, Alfredo Reina and Azbijari, Keyan and Deshmukh, Jyotirmoy V},
   journal={arXiv preprint arXiv:2607.00442},
   year={2026}
-}
+}</code></pre>
 
-@article{atasever2026llm,
+<pre><code>@article{atasever2026llm,
   title={From LLM-Generated Specifications to Learned Quadruped Locomotion},
   author={Atasever, Merve and Azbijari, Keyan and Bakirci, Cagan and Corona, Alfredo Reina and Izdas, Tolga and Yang, Richard and Biyik, Erdem and Deshmukh, Jyotirmoy V},
   journal={arXiv preprint arXiv:2609.07111},
+  year={2026}
+}</code></pre>
   year={2026}
 }
